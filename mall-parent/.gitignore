@@ -1,0 +1,50 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+../.idea
+.mvn
+/mall-parent.iml
+/mall-common/target/
+/mall-common/*.iml
+/mall-eureka/target/
+/mall-eureka/*.iml
+/mall-goods/target/
+/mall-goods/*.iml
+/mall-marketing/target/
+/mall-marketing/*.iml
+/mall-order/target/
+/mall-order/*.iml
+/mall-permission/target/
+/mall-permission/*.iml
+
+
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
